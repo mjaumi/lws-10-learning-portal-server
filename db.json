@@ -48,6 +48,27 @@
       "role": "student",
       "name": "Arif",
       "id": 7
+    },
+    {
+      "email": "rafsanRomy@gmail.com",
+      "password": "$2a$10$9b/KawJRzfMb/BksieLad.K.oq3x5Mjls10zegLvTlXHct61wAX/m",
+      "role": "student",
+      "name": "Rafsan",
+      "id": 8
+    },
+    {
+      "email": "rafsan@learnwithsumit.com",
+      "password": "$2a$10$U1ge265CJkcekdKEteWGHui0yBeSxjoVutED/MRFcmbCGzaI85FQa",
+      "role": "student",
+      "name": "Rafsan",
+      "id": 9
+    },
+    {
+      "email": "mjaumi2864@gmail.com",
+      "password": "$2a$10$zm2SQ7EW8VccoD7ja9pZ0OeRo71xGkIPaehZriNWVpx1n.2xog7hu",
+      "role": "student",
+      "name": "MJ Aumi",
+      "id": 10
     }
   ],
   "videos": [
@@ -62,12 +83,21 @@
     },
     {
       "id": 2,
-      "title": "#2 JavaScript Tips and Tricks - JavaScript Job Interview Questions",
+      "title": "#2 JavaScript Tips and Tricks - JavaScript Job Interview",
       "description": "JavaScript Tips and Tricks - JavaScript Job Interview Questions - Bangla Tutorial \nIn this video, I have shown 8 more JavaScript pro tips that will make a JavaScript Developer's life easier.",
       "url": "https://www.youtube.com/embed/E9_R88eKcBM",
       "views": "91.2K",
       "duration": "31:30",
       "createdAt": "2023-02-24T17:59:00.000Z"
+    },
+    {
+      "title": "BAN vs WI highlights",
+      "description": "Highlights",
+      "url": "https://www.youtube.com/embed/p1Hourcu8MU",
+      "views": "2.7M",
+      "duration": "11:33",
+      "createdAt": "2023-04-07T12:02:08.28",
+      "id": 4
     }
   ],
   "assignments": [
@@ -84,6 +114,20 @@
       "video_id": 2,
       "video_title": "#2 JavaScript Tips and Tricks - JavaScript Job Interview Questions",
       "totalMark": 100
+    },
+    {
+      "title": "GGF",
+      "video_id": 2,
+      "video_title": "#2 JavaScript Tips and Tricks - JavaScript Job Interview Questions",
+      "totalMark": 200,
+      "id": 4
+    },
+    {
+      "title": "Assignment 6 - BAN vs WI 5th Match",
+      "video_id": 4,
+      "video_title": "BAN vs WI highlights",
+      "totalMark": 200,
+      "id": 6
     }
   ],
   "quizzes": [
@@ -94,12 +138,12 @@
       "video_title": "Debounce Function in JavaScript - JavaScript Job Interview question",
       "options": [
         {
-          "id": "1",
+          "id": 1,
           "option": "A function that is called after a certain time interval",
           "isCorrect": true
         },
         {
-          "id": "2",
+          "id": 2,
           "option": "A function that is called after a certain time interval",
           "isCorrect": false
         },
@@ -122,12 +166,12 @@
       "video_title": "Debounce Function in JavaScript - JavaScript Job Interview question",
       "options": [
         {
-          "id": "1",
+          "id": 1,
           "option": "A search bar where the results are displayed as you type.",
           "isCorrect": true
         },
         {
-          "id": "2",
+          "id": 2,
           "option": "A button that performs an action when clicked.",
           "isCorrect": false
         },
@@ -147,7 +191,7 @@
       "id": 3,
       "question": "What is the difference between null and undefined in JavaScript?",
       "video_id": 2,
-      "video_title": "#2 JavaScript Tips and Tricks - JavaScript Job Interview Questions",
+      "video_title": "#2 JavaScript Tips and Tricks - JavaScript Job Interview",
       "options": [
         {
           "id": 1,
@@ -170,6 +214,34 @@
           "isCorrect": false
         }
       ]
+    },
+    {
+      "question": "Will Ban win",
+      "video_id": 4,
+      "video_title": "BAN vs WI highlights",
+      "options": [
+        {
+          "id": 1,
+          "option": "Yes",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "option": "No",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "option": "Hoite Pare",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "option": "Jani na",
+          "isCorrect": false
+        }
+      ],
+      "id": 6
     }
   ],
   "assignmentMark": [
@@ -181,9 +253,9 @@
       "title": "Assignment 1 - Implement Debounce Function",
       "createdAt": "2021-01-15T15:17:01.727Z",
       "totalMark": 100,
-      "mark": 0,
+      "mark": 80,
       "repo_link": "https://github.com/Learn-with-Sumit/assignment-1",
-      "status": "pending"
+      "status": "published"
     },
     {
       "id": 2,
@@ -198,7 +270,7 @@
       "status": "published"
     },
     {
-      "id": 2,
+      "id": 3,
       "student_id": 3,
       "student_name": "Akash Ahmed",
       "assignment_id": 1,
@@ -208,6 +280,102 @@
       "mark": 50,
       "repo_link": "https://github.com/Learn-with-Sumit/assignment-1",
       "status": "published"
+    },
+    {
+      "student_id": 9,
+      "student_name": "Rafsan",
+      "assignment_id": 4,
+      "title": "GGF",
+      "createdAt": "2023-04-05T01:28:09.289",
+      "totalMark": 200,
+      "mark": 150,
+      "repo_link": "http://localhost:9000/assignmentMark",
+      "status": "published",
+      "id": 4
+    },
+    {
+      "student_id": 9,
+      "student_name": "Rafsan",
+      "assignment_id": 5,
+      "title": "GFD",
+      "createdAt": "2023-04-05T01:28:26.2826",
+      "totalMark": 10,
+      "mark": 10,
+      "repo_link": "http://localhost:9000/assignmentMark",
+      "status": "published",
+      "id": 5
+    },
+    {
+      "student_id": 9,
+      "student_name": "Rafsan",
+      "assignment_id": 1,
+      "title": "Assignment 1 - Implement Debounce Function",
+      "createdAt": "2023-04-06T05:57:04.574",
+      "totalMark": 100,
+      "mark": 100,
+      "repo_link": "https://www.youtube.com/watch?v=p1Hourcu8MU",
+      "status": "published",
+      "id": 10
+    },
+    {
+      "student_id": 9,
+      "student_name": "Rafsan",
+      "assignment_id": 6,
+      "title": "Assignment 6 - BAN vs WI 5th Match",
+      "createdAt": "2023-04-06T06:19:55.1955",
+      "totalMark": 200,
+      "mark": 500,
+      "repo_link": "https://www.youtube.com/embed/p1Hourcu8MU",
+      "status": "published",
+      "id": 11
+    },
+    {
+      "student_id": 9,
+      "student_name": "Rafsan",
+      "assignment_id": 2,
+      "title": "Assignment 2 - Implement Best Practices",
+      "createdAt": "2023-04-06T10:53:28.5328",
+      "totalMark": 100,
+      "mark": 0,
+      "repo_link": "http://localhost:9000/quizzes",
+      "status": "pending",
+      "id": 12
+    },
+    {
+      "student_id": 2,
+      "student_name": "Saad Hasan",
+      "assignment_id": 5,
+      "title": "GFD",
+      "createdAt": "2023-04-06T10:54:57.5457",
+      "totalMark": 10,
+      "mark": 0,
+      "repo_link": "http://localhost:9000/quizzes",
+      "status": "pending",
+      "id": 13
+    },
+    {
+      "student_id": 10,
+      "student_name": "MJ Aumi",
+      "assignment_id": 5,
+      "title": "GFD",
+      "createdAt": "2023-04-07T12:10:21.1021",
+      "totalMark": 10,
+      "mark": 0,
+      "repo_link": "https://www.youtube.com/embed/p1Hourcu8MU",
+      "status": "pending",
+      "id": 14
+    },
+    {
+      "student_id": 10,
+      "student_name": "MJ Aumi",
+      "assignment_id": 6,
+      "title": "Assignment 6 - BAN vs WI 5th Match",
+      "createdAt": "2023-04-07T10:19:01.191",
+      "totalMark": 200,
+      "mark": 200,
+      "repo_link": "http://localhost:3000/",
+      "status": "published",
+      "id": 15
     }
   ],
   "quizMark": [
@@ -222,6 +390,90 @@
       "totalWrong": 1,
       "totalMark": 10,
       "mark": 5
+    },
+    {
+      "student_id": 9,
+      "student_name": "Rafsan",
+      "video_id": 3,
+      "video_title": "Khela Joke",
+      "totalQuiz": 2,
+      "totalCorrect": 2,
+      "totalWrong": 0,
+      "totalMark": 10,
+      "mark": 10,
+      "id": 2
+    },
+    {
+      "student_id": 5,
+      "student_name": "Ferdous",
+      "video_id": 3,
+      "video_title": "Khela Joke",
+      "totalQuiz": 2,
+      "totalCorrect": 2,
+      "totalWrong": 0,
+      "totalMark": 10,
+      "mark": 10,
+      "id": 3
+    },
+    {
+      "student_id": 8,
+      "student_name": "Rafsan",
+      "video_id": 3,
+      "video_title": "Khela Joke",
+      "totalQuiz": 2,
+      "totalCorrect": 1,
+      "totalWrong": 1,
+      "totalMark": 10,
+      "mark": 5,
+      "id": 4
+    },
+    {
+      "student_id": 9,
+      "student_name": "Rafsan",
+      "video_id": 1,
+      "video_title": "Debounce Function in JavaScript - JavaScript Job Interview question",
+      "totalQuiz": 2,
+      "totalCorrect": 1,
+      "totalWrong": 1,
+      "totalMark": 10,
+      "mark": 5,
+      "id": 5
+    },
+    {
+      "student_id": 6,
+      "student_name": "Riyadh",
+      "video_id": 3,
+      "video_title": "Khela Joke",
+      "totalQuiz": 2,
+      "totalCorrect": 0,
+      "totalWrong": 2,
+      "totalMark": 10,
+      "mark": 0,
+      "id": 6
+    },
+    {
+      "student_id": 6,
+      "student_name": "Riyadh",
+      "video_id": 2,
+      "video_title": "#2 JavaScript Tips and Tricks - JavaScript Job Interview",
+      "totalQuiz": 1,
+      "totalCorrect": 0,
+      "totalWrong": 1,
+      "totalMark": 5,
+      "mark": 0,
+      "id": 7
+    },
+    {
+      "student_id": 10,
+      "student_name": "MJ Aumi",
+      "video_id": 3,
+      "video_title": "Khela Joke",
+      "totalQuiz": 2,
+      "totalCorrect": 2,
+      "totalWrong": 0,
+      "totalMark": 10,
+      "mark": 10,
+      "id": 8
     }
   ]
 }
