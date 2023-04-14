@@ -19,6 +19,7 @@
   "homepage": "https://github.com/mjaumi/lws-10-learning-portal-server#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "express": "^4.18.2",
     "json-serve": "^0.1.0",
     "json-server": "^0.17.3",
     "json-server-auth": "^2.1.0"

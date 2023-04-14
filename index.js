@@ -1,11 +1,18 @@
 const auth = require('json-server-auth');
 const jsonServer = require('json-server');
-const server = jsonServer.create();
+const express = require('express');
+const http = require('http');
+
+const app = express();
+const server = http.createServer(app);
+
 const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 9000;
 
-server.use(middlewares);
+app.db = router.db;
+
+app.use(middlewares);
 
 const rules = auth.rewriter({
     users: 640,
@@ -16,8 +23,8 @@ const rules = auth.rewriter({
     quizMark: 660
 });
 
-server.use(rules);
-server.use(auth);
-server.use(router);
+app.use(rules);
+app.use(auth);
+app.use(router);
 
 server.listen(port);
