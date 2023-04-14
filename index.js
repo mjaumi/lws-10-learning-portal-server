@@ -14,6 +14,7 @@ app.db = router.db;
 
 app.use(middlewares);
 
+// defining rules for users here
 const rules = auth.rewriter({
     users: 640,
     videos: 660,
