@@ -16,9 +16,9 @@ app.use(middlewares);
 
 const rules = auth.rewriter({
     users: 640,
-    videos: 640,
-    assignments: 640,
-    quizzes: 640,
+    videos: 660,
+    assignments: 660,
+    quizzes: 660,
     assignmentMark: 660,
     quizMark: 660
 });
